@@ -2,9 +2,16 @@
 
 library(ggplot2)
 library(ggridges)
+library(reshape)
+library(dplyr)
+library(viridis)
 
 setwd("~/Projects/gisaid_uploads")
 seqs <- read.csv('data.csv', header = TRUE)
+seqs <- subset(seqs, select=-c(proportion))
+
+seqs$region <- factor(seqs$region)
+seqs$region <- relevel(seqs$region, "Canada")
 
 
 ggplot(seqs, aes(x = date, y = GISAID_uploads)) + 
@@ -13,10 +20,35 @@ ggplot(seqs, aes(x = date, y = GISAID_uploads)) +
   guides(x = guide_axis(angle = 90)) +
   xlab("date") + 
   ylab("number of sequences") +
-  scale_fill_hue(l=40) +
-  ggtitle("Cumulative number of sequences uploaded to GISAID by province and month")
+  ggtitle("Cumulative number of sequences uploaded to GISAID by province and date") +
+  scale_color_viridis(discrete = TRUE, option = "D")+
+  scale_fill_viridis(discrete = TRUE) 
 
 ggsave("gisaid_prov_date.png", width = 25, height = 25, units = 'cm')
+
+
+seqs2 <- seqs %>%
+  group_by(region, GISAID_uploads) %>%
+  summarise(max = max(sequences,na.rm=TRUE))
+
+seqs2<- seqs %>%
+  group_by(region) %>%
+  summarise(GISAID = max(GISAID_uploads,na.rm=TRUE), sequences = max(sequences))
+
+seqs2$region <- factor(seqs2$region)
+seqs2$region <- relevel(seqs2$region, "Canada")
+
+ggplot(seqs2, aes(x = region, y = sequences, fill = 'sequences')) +
+  geom_col() +
+  geom_col(aes(x = region, y = GISAID, fill = 'GISAID')) +
+  ylab("number of sequences") +
+  ggtitle("Cumulative number of sequences passing national QC standards and sequences uploaded to GISAID \nby region") +
+  guides(x = guide_axis(angle = 90)) +
+  geom_text(aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
+  labs(fill='') +
+  scale_fill_manual(values = c("#9ADADC", "#457B9D"))
+
+ggsave("gisaid_seqs_totals.png", width = 25, height = 25, units = 'cm')
 
 '''
 seqs3 <- read.csv("stats_grouped_by_month.csv", header = TRUE)
