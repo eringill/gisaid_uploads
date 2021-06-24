@@ -20,7 +20,7 @@ ggplot(seqs, aes(x = date, y = GISAID_uploads)) +
   guides(x = guide_axis(angle = 90)) +
   xlab("date") + 
   ylab("number of sequences") +
-  ggtitle("Cumulative number of sequences uploaded to GISAID by province and date") +
+  ggtitle("Cumulative number of sequences uploaded to GISAID by region and date") +
   scale_color_viridis(discrete = TRUE, option = "D")+
   scale_fill_viridis(discrete = TRUE) 
 
@@ -65,7 +65,7 @@ ggplot(seqs3, aes(x = date, y = téléchargements_à_GISAID)) +
   guides(x = guide_axis(angle = 90)) +
   xlab("date") + 
   ylab("nombre de séquences") +
-  ggtitle("nombre cumulé de séquences télechargés à GISAID per région et date") +
+  ggtitle("nombre cumulatif de séquences téleverseés dans GISAID par région et date") +
   scale_color_viridis(discrete = TRUE, option = "D")+
   scale_fill_viridis(discrete = TRUE) 
 
@@ -87,7 +87,7 @@ ggplot(seqs4, aes(x = région, y = séquences, fill = 'séquences')) +
   geom_col() +
   geom_col(aes(x = région, y = GISAID, fill = 'GISAID')) +
   ylab("nombre de séquences") +
-  ggtitle("nombre cumulé de séquences qui passent les normes nationales cq et séquences \ntélechargés à GISAID per région") +
+  ggtitle("nombre cumulatif de séquences conformes aux normes nationales de contrôle de la qualité et séquences \ntéleversées dans GISAID par région") +
   guides(x = guide_axis(angle = 90)) +
   geom_text(aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
   labs(fill='') +
