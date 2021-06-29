@@ -103,7 +103,7 @@ ggplot(seqs_can, aes(x = date, y = séquences, fill = 'séquences')) +
   guides(x = guide_axis(angle = 90)) +
   geom_text(size=2.5, aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
   labs(fill='') +
-  scale_x_date(date_breaks = "1 month", date_labels = "%b-%Y") +
+  scale_x_date(date_breaks = "1 month", date_labels = "%m-%Y") +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
   scale_fill_manual(values = c("#9ADADC", "#457B9D"))
 
