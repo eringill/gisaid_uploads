@@ -27,13 +27,15 @@ ggplot(seqs, aes(x = date, y = GISAID_uploads)) +
 #ggsave("gisaid_prov_date.png", width = 25, height = 25, units = 'cm')
 seqs_can <- seqs[seqs$region == 'Canada',]
 names(seqs_can)[3] <- 'GISAID'
+names(seqs_can)[2] <- 'Sequences'
+names(seqs_can)[4] <- 'Date'
 seqs_can <- data.frame(seqs_can)
-seqs_can$date <- as.Date(seqs_can$date)
+seqs_can$Date <- as.Date(seqs_can$Date)
 
-ggplot(seqs_can, aes(x = date, y = sequences, fill = 'sequences')) +
+ggplot(seqs_can, aes(x = Date, y = Sequences, fill = 'Sequences')) +
   geom_col() +
-  geom_col(aes(x = date, y = GISAID, fill = 'GISAID')) +
-  ylab("number of sequences") +
+  geom_col(aes(x = Date, y = GISAID, fill = 'GISAID')) +
+  ylab("Number of sequences") +
   ggtitle("Cumulative number of sequences passing national QC standards and sequences uploaded to GISAID") +
   guides(x = guide_axis(angle = 90)) +
   geom_text(size=2.5, aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
@@ -93,13 +95,13 @@ ggplot(seqs3, aes(x = date, y = téléchargements_à_GISAID)) +
 
 #ggsave("gisaid_prov_date_fr.png", width = 25, height = 25, units = 'cm')
 
-names(seqs_can)[2] <- 'séquences'
+names(seqs_can)[2] <- 'Séquences'
 
-ggplot(seqs_can, aes(x = date, y = séquences, fill = 'séquences')) +
+ggplot(seqs_can, aes(x = Date, y = Séquences, fill = 'Séquences')) +
   geom_col() +
-  geom_col(aes(x = date, y = GISAID, fill = 'GISAID')) +
-  ylab("nombre de séquences") +
-  ggtitle("nombre cumulatif de séquences conformes aux normes nationales de contrôle de la qualité et séquences \ntélechargées dans GISAID") +
+  geom_col(aes(x = Date, y = GISAID, fill = 'GISAID')) +
+  ylab("Nombre de séquences") +
+  ggtitle("Nombre cumulatif de séquences conformes aux normes nationales de contrôle de la qualité et séquences \ntélechargées dans GISAID") +
   guides(x = guide_axis(angle = 90)) +
   geom_text(size=2.5, aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
   labs(fill='') +
