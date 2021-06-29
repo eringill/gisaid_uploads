@@ -7,7 +7,7 @@ library(dplyr)
 library(viridis)
 
 setwd("~/Projects/gisaid_uploads")
-seqs <- read.csv('data.csv', header = TRUE)
+seqs <- read.csv('data_reduced.csv', header = TRUE)
 seqs <- subset(seqs, select=-c(proportion))
 
 seqs$region <- factor(seqs$region)
@@ -24,7 +24,27 @@ ggplot(seqs, aes(x = date, y = GISAID_uploads)) +
   scale_color_viridis(discrete = TRUE, option = "D")+
   scale_fill_viridis(discrete = TRUE) 
 
-ggsave("gisaid_prov_date.png", width = 25, height = 25, units = 'cm')
+#ggsave("gisaid_prov_date.png", width = 25, height = 25, units = 'cm')
+seqs_can <- seqs[seqs$region == 'Canada',]
+names(seqs_can)[3] <- 'GISAID'
+seqs_can <- data.frame(seqs_can)
+seqs_can$date <- as.Date(seqs_can$date)
+
+ggplot(seqs_can, aes(x = date, y = sequences, fill = 'sequences')) +
+  geom_col() +
+  geom_col(aes(x = date, y = GISAID, fill = 'GISAID')) +
+  ylab("number of sequences") +
+  ggtitle("Cumulative number of sequences passing national QC standards and sequences uploaded to GISAID") +
+  guides(x = guide_axis(angle = 90)) +
+  geom_text(size=2.5, aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
+  labs(fill='') +
+  scale_x_date(date_breaks = "1 month", date_labels = "%b-%Y") +
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
+  scale_fill_manual(values = c("#9ADADC", "#457B9D"))
+
+ggsave("gisaid_seqs_running_canada.png", width = 25, height = 25, units = 'cm')
+
+
 
 
 seqs2 <- seqs %>%
@@ -48,7 +68,9 @@ ggplot(seqs2, aes(x = region, y = sequences, fill = 'sequences')) +
   labs(fill='') +
   scale_fill_manual(values = c("#9ADADC", "#457B9D"))
 
-ggsave("gisaid_seqs_totals.png", width = 25, height = 25, units = 'cm')
+#ggsave("gisaid_seqs_totals.png", width = 25, height = 25, units = 'cm')
+
+
 
 
 #-----------French graphs
@@ -69,7 +91,23 @@ ggplot(seqs3, aes(x = date, y = téléchargements_à_GISAID)) +
   scale_color_viridis(discrete = TRUE, option = "D")+
   scale_fill_viridis(discrete = TRUE) 
 
-ggsave("gisaid_prov_date_fr.png", width = 25, height = 25, units = 'cm')
+#ggsave("gisaid_prov_date_fr.png", width = 25, height = 25, units = 'cm')
+
+names(seqs_can)[2] <- 'séquences'
+
+ggplot(seqs_can, aes(x = date, y = séquences, fill = 'séquences')) +
+  geom_col() +
+  geom_col(aes(x = date, y = GISAID, fill = 'GISAID')) +
+  ylab("nombre de séquences") +
+  ggtitle("nombre cumulatif de séquences conformes aux normes nationales de contrôle de la qualité et séquences \ntélechargées dans GISAID") +
+  guides(x = guide_axis(angle = 90)) +
+  geom_text(size=2.5, aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
+  labs(fill='') +
+  scale_x_date(date_breaks = "1 month", date_labels = "%b-%Y") +
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
+  scale_fill_manual(values = c("#9ADADC", "#457B9D"))
+
+ggsave("gisaid_seqs_running_canada_fr.png", width = 25, height = 25, units = 'cm')
 
 
 seqs4 <- seqs3 %>%
