@@ -1,0 +1,142 @@
+---
+title: "Graphing Options - GISAID and Data Portal Uploads"
+author: "Erin Gill"
+date: "28/03/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(reshape)
+library(plyr)
+library(dplyr)
+library(viridis)
+```
+
+## Considerations
+
+In order to incorporate information on each province's uploads to **GISIAD** and the **VirusSeq Data Portal**, we need to make a few decisions about: 
+
+- *how to present the data*
+- *whether we want to include historical data or just the most recent data* (I have historical data going back to June 2021 for the Data Portal and September 2020 for GISAID)
+
+In order to make these decisions, I've made some sample plots with a test dataset. 
+
+```{r load_data, include = FALSE}
+setwd("~/Projects/gisaid_uploads")
+seqs <- read.csv('data/days_to_deposition_90.csv', header = TRUE)
+
+# relevel factors
+seqs$country <- factor(seqs$country)
+seqs$country <- relevel(seqs$country, "Canada")
+
+# rename columns
+names(seqs)[2] <- 'GISAID'
+names(seqs)[5] <- 'Portal'
+names(seqs)[6] <- 'Mar_2022'
+
+seqs <- subset(seqs, select = -c(percent_cases_sequenced_and_shared, cases, Mar_2022))
+
+```
+
+### Let's take a look at the dataset 
+
+```{r, echo = FALSE}
+knitr::kable(seqs, caption = "Number of sequences uploaded to GISAID and the Data Portal by country")
+```
+
+### First, let's look at a bar plot
+
+Sequences uploaded to the two repositories are overlaid for each country, and the alpha parameter is decreased so that you can easily see when a country has uploaded more to one repository than another
+
+In the following plots, imagine that countries are **provinces**
+```{r, echo=FALSE}
+#plot of median days to deposition to GISAID over last 90 days
+ggplot(seqs, aes(x = country, y = GISAID, fill = 'GISAID', alpha = 0.5)) +
+  geom_col() +
+  scale_alpha(guide='none') +
+  geom_col(aes(x = country, y = Portal, fill = 'Portal', alpha = 0.5)) +
+  ylab("Number of sequences uploaded") +
+  ggtitle("Total number of sequences shared to GISAID and the Data\nPortal by country") +
+  guides(x = guide_axis(angle = 90)) +
+  geom_text(size=2.5, aes(y = GISAID, label = GISAID), vjust = 1.5, colour = "black") +
+  geom_text(size=2.5, aes(y = Portal, label = Portal), vjust = 1.5, colour = "black") +
+  labs(fill='Repository') +
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
+  scale_fill_manual(values = c("red", "blue"))
+
+```
+
+### Here's a second barplot option where sequences uploaded to each repository are plotted side by side for each country
+
+```{r, melt_df, echo = FALSE, include=FALSE}
+seqsmelt <- melt(seqs)
+
+names(seqsmelt)[2] <- 'type'
+names(seqsmelt)[3] <- 'sequences'
+
+```
+
+
+```{r, echo=FALSE}
+ggplot(seqsmelt, aes(x = country, y = sequences, fill = type)) +
+  geom_bar(position ='dodge', stat = 'identity') +
+  ylab("Number of sequences uploaded") +
+  xlab("Country") +
+  ggtitle("Total number of sequences shared to GISAID and the Data\nPortal by country") +
+  guides(x = guide_axis(angle = 90)) +
+  labs(fill='Repository') +
+  scale_fill_viridis(discrete = TRUE) 
+
+```
+
+```{r, import_date_data, echo=FALSE}
+
+seqs2 <- read.csv('data/sample_uploads.csv', header = TRUE)
+
+# relevel factors
+seqs2$country <- factor(seqs$country)
+seqs2$country <- relevel(seqs$country, "Canada")
+seqs2$date <- as.Date(seqs2$date)
+
+```
+## What if we want to look at upload progress over time?
+
+Here's the first few rows of a second dataset that contains multiple time points
+```{r, echo = FALSE}
+knitr::kable(seqs2[1:10, ], caption = "Number of sequences uploaded to GISAID and the Data Portal over time by country")
+```
+
+### Here each country is plotted separately and you can see if the "rate of upload" has been increasing or decreasing to both repositories
+```{r, echo = FALSE}
+ggplot(seqs2, aes(x = date, y = number)) +
+  geom_point(aes(color = repository)) +
+  geom_line(aes(color = repository)) +
+  facet_wrap(~country) +
+  scale_color_viridis(discrete = TRUE) +
+  scale_x_date(breaks = as.Date(c("2021-08-01", "2021-11-01")),
+               labels = c('Aug', 'Nov')) +
+  guides(x = guide_axis(angle = 90)) +
+  ylab("Number of sequences uploaded") +
+  xlab("Country") +
+  ggtitle("Number of sequences shared to GISAID and the Data\nPortal over time by country")
+
+```
+
+### The same plot as above, but a bar plot instead of a line plot
+```{r, echo=FALSE}
+ggplot(seqs2, aes(x = date, y = number, fill = repository)) +
+  geom_bar(stat = 'identity', position = 'dodge') +
+  facet_wrap(~country, ncol = 4) +
+  scale_fill_viridis(discrete = TRUE) +
+  guides(x = guide_axis(angle = 90)) +
+  scale_x_date(breaks = as.Date(c("2021-08-01", "2021-11-01")),
+               labels = c('Aug', 'Nov')) +
+  ylab("Number of sequences uploaded") +
+  xlab("Country") +
+  ggtitle("Number of sequences shared to GISAID and the Data\nPortal over time by country")
+
+```
+
+
