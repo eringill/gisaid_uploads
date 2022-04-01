@@ -1,0 +1,595 @@
+date,variable,region,value
+2020-10-01,sequences,Alberta,632.0
+2020-11-01,sequences,Alberta,152.0
+2020-12-01,sequences,Alberta,800.0
+2021-01-01,sequences,Alberta,421.0
+2021-02-01,sequences,Alberta,1211.0
+2021-03-01,sequences,Alberta,4526.0
+2021-04-01,sequences,Alberta,5128.0
+2021-05-01,sequences,Alberta,3235.0
+2021-06-01,sequences,Alberta,3583.0
+2021-07-01,sequences,Alberta,684.0
+2021-08-01,sequences,Alberta,1454.0
+2021-09-01,sequences,Alberta,5577.0
+2021-10-01,sequences,Alberta,4539.0
+2021-11-01,sequences,Alberta,4359.0
+2021-12-01,sequences,Alberta,3241.0
+2022-01-01,sequences,Alberta,3615.0
+2022-02-01,sequences,Alberta,4492.0
+2022-03-01,sequences,Alberta,3112.0
+2020-10-01,sequences,British Columbia,1133.0
+2020-11-01,sequences,British Columbia,1353.0
+2020-12-01,sequences,British Columbia,1680.0
+2021-01-01,sequences,British Columbia,1497.0
+2021-02-01,sequences,British Columbia,3300.0
+2021-03-01,sequences,British Columbia,4995.0
+2021-04-01,sequences,British Columbia,9349.0
+2021-05-01,sequences,British Columbia,5400.0
+2021-06-01,sequences,British Columbia,12200.0
+2021-07-01,sequences,British Columbia,1939.0
+2021-08-01,sequences,British Columbia,2029.0
+2021-09-01,sequences,British Columbia,0.0
+2021-10-01,sequences,British Columbia,25734.0
+2021-11-01,sequences,British Columbia,11979.0
+2021-12-01,sequences,British Columbia,4747.0
+2022-01-01,sequences,British Columbia,10942.0
+2022-02-01,sequences,British Columbia,13900.0
+2022-03-01,sequences,British Columbia,12729.0
+2020-10-01,sequences,Canada,3583.0
+2020-11-01,sequences,Canada,3649.0
+2020-12-01,sequences,Canada,3948.0
+2021-01-01,sequences,Canada,3432.0
+2021-02-01,sequences,Canada,11674.0
+2021-03-01,sequences,Canada,18477.0
+2021-04-01,sequences,Canada,29161.0
+2021-05-01,sequences,Canada,26008.0
+2021-06-01,sequences,Canada,19378.0
+2021-07-01,sequences,Canada,11972.0
+2021-08-01,sequences,Canada,9298.0
+2021-09-01,sequences,Canada,23173.0
+2021-10-01,sequences,Canada,41539.0
+2021-11-01,sequences,Canada,25775.0
+2021-12-01,sequences,Canada,17098.0
+2022-01-01,sequences,Canada,26193.0
+2022-02-01,sequences,Canada,34987.0
+2022-03-01,sequences,Canada,24105.0
+2020-10-01,sequences,Manitoba,118.0
+2020-11-01,sequences,Manitoba,173.0
+2020-12-01,sequences,Manitoba,376.0
+2021-01-01,sequences,Manitoba,0.0
+2021-02-01,sequences,Manitoba,355.0
+2021-03-01,sequences,Manitoba,393.0
+2021-04-01,sequences,Manitoba,80.0
+2021-05-01,sequences,Manitoba,363.0
+2021-06-01,sequences,Manitoba,506.0
+2021-07-01,sequences,Manitoba,127.0
+2021-08-01,sequences,Manitoba,410.0
+2021-09-01,sequences,Manitoba,1380.0
+2021-10-01,sequences,Manitoba,327.0
+2021-11-01,sequences,Manitoba,427.0
+2021-12-01,sequences,Manitoba,590.0
+2022-01-01,sequences,Manitoba,561.0
+2022-02-01,sequences,Manitoba,1354.0
+2022-03-01,sequences,Manitoba,547.0
+2020-10-01,sequences,New Brunswick,0.0
+2020-11-01,sequences,New Brunswick,0.0
+2020-12-01,sequences,New Brunswick,0.0
+2021-01-01,sequences,New Brunswick,48.0
+2021-02-01,sequences,New Brunswick,168.0
+2021-03-01,sequences,New Brunswick,89.0
+2021-04-01,sequences,New Brunswick,309.0
+2021-05-01,sequences,New Brunswick,172.0
+2021-06-01,sequences,New Brunswick,139.0
+2021-07-01,sequences,New Brunswick,19.0
+2021-08-01,sequences,New Brunswick,17.0
+2021-09-01,sequences,New Brunswick,180.0
+2021-10-01,sequences,New Brunswick,355.0
+2021-11-01,sequences,New Brunswick,677.0
+2021-12-01,sequences,New Brunswick,518.0
+2022-01-01,sequences,New Brunswick,717.0
+2022-02-01,sequences,New Brunswick,883.0
+2022-03-01,sequences,New Brunswick,609.0
+2020-10-01,sequences,Newfoundland and Labrador,0.0
+2020-11-01,sequences,Newfoundland and Labrador,30.0
+2020-12-01,sequences,Newfoundland and Labrador,0.0
+2021-01-01,sequences,Newfoundland and Labrador,21.0
+2021-02-01,sequences,Newfoundland and Labrador,111.0
+2021-03-01,sequences,Newfoundland and Labrador,109.0
+2021-04-01,sequences,Newfoundland and Labrador,32.0
+2021-05-01,sequences,Newfoundland and Labrador,94.0
+2021-06-01,sequences,Newfoundland and Labrador,37.0
+2021-07-01,sequences,Newfoundland and Labrador,0.0
+2021-08-01,sequences,Newfoundland and Labrador,12.0
+2021-09-01,sequences,Newfoundland and Labrador,3.0
+2021-10-01,sequences,Newfoundland and Labrador,156.0
+2021-11-01,sequences,Newfoundland and Labrador,126.0
+2021-12-01,sequences,Newfoundland and Labrador,134.0
+2022-01-01,sequences,Newfoundland and Labrador,131.0
+2022-02-01,sequences,Newfoundland and Labrador,210.0
+2022-03-01,sequences,Newfoundland and Labrador,131.0
+2020-10-01,sequences,Nova Scotia,206.0
+2020-11-01,sequences,Nova Scotia,0.0
+2020-12-01,sequences,Nova Scotia,0.0
+2021-01-01,sequences,Nova Scotia,0.0
+2021-02-01,sequences,Nova Scotia,478.0
+2021-03-01,sequences,Nova Scotia,129.0
+2021-04-01,sequences,Nova Scotia,127.0
+2021-05-01,sequences,Nova Scotia,20.0
+2021-06-01,sequences,Nova Scotia,46.0
+2021-07-01,sequences,Nova Scotia,0.0
+2021-08-01,sequences,Nova Scotia,64.0
+2021-09-01,sequences,Nova Scotia,204.0
+2021-10-01,sequences,Nova Scotia,194.0
+2021-11-01,sequences,Nova Scotia,238.0
+2021-12-01,sequences,Nova Scotia,126.0
+2022-01-01,sequences,Nova Scotia,264.0
+2022-02-01,sequences,Nova Scotia,161.0
+2022-03-01,sequences,Nova Scotia,213.0
+2020-10-01,sequences,Ontario,1003.0
+2020-11-01,sequences,Ontario,1114.0
+2020-12-01,sequences,Ontario,1071.0
+2021-01-01,sequences,Ontario,1256.0
+2021-02-01,sequences,Ontario,2258.0
+2021-03-01,sequences,Ontario,3786.0
+2021-04-01,sequences,Ontario,3806.0
+2021-05-01,sequences,Ontario,7059.0
+2021-06-01,sequences,Ontario,6176.0
+2021-07-01,sequences,Ontario,461.0
+2021-08-01,sequences,Ontario,2179.0
+2021-09-01,sequences,Ontario,6285.0
+2021-10-01,sequences,Ontario,3353.0
+2021-11-01,sequences,Ontario,1481.0
+2021-12-01,sequences,Ontario,4114.0
+2022-01-01,sequences,Ontario,7878.0
+2022-02-01,sequences,Ontario,6828.0
+2022-03-01,sequences,Ontario,3742.0
+2020-10-01,sequences,Prince Edward Island,0.0
+2020-11-01,sequences,Prince Edward Island,4.0
+2020-12-01,sequences,Prince Edward Island,10.0
+2021-01-01,sequences,Prince Edward Island,3.0
+2021-02-01,sequences,Prince Edward Island,12.0
+2021-03-01,sequences,Prince Edward Island,29.0
+2021-04-01,sequences,Prince Edward Island,22.0
+2021-05-01,sequences,Prince Edward Island,11.0
+2021-06-01,sequences,Prince Edward Island,1.0
+2021-07-01,sequences,Prince Edward Island,0.0
+2021-08-01,sequences,Prince Edward Island,0.0
+2021-09-01,sequences,Prince Edward Island,5.0
+2021-10-01,sequences,Prince Edward Island,50.0
+2021-11-01,sequences,Prince Edward Island,26.0
+2021-12-01,sequences,Prince Edward Island,55.0
+2022-01-01,sequences,Prince Edward Island,84.0
+2022-02-01,sequences,Prince Edward Island,94.0
+2022-03-01,sequences,Prince Edward Island,18.0
+2020-10-01,sequences,Quebec,472.0
+2020-11-01,sequences,Quebec,810.0
+2020-12-01,sequences,Quebec,0.0
+2021-01-01,sequences,Quebec,157.0
+2021-02-01,sequences,Quebec,3429.0
+2021-03-01,sequences,Quebec,3442.0
+2021-04-01,sequences,Quebec,7679.0
+2021-05-01,sequences,Quebec,7094.0
+2021-06-01,sequences,Quebec,3651.0
+2021-07-01,sequences,Quebec,0.0
+2021-08-01,sequences,Quebec,2839.0
+2021-09-01,sequences,Quebec,7248.0
+2021-10-01,sequences,Quebec,4396.0
+2021-11-01,sequences,Quebec,4234.0
+2021-12-01,sequences,Quebec,1912.0
+2022-01-01,sequences,Quebec,925.0
+2022-02-01,sequences,Quebec,4054.0
+2022-03-01,sequences,Quebec,1585.0
+2020-10-01,sequences,Saskatchewan,19.0
+2020-11-01,sequences,Saskatchewan,13.0
+2020-12-01,sequences,Saskatchewan,11.0
+2021-01-01,sequences,Saskatchewan,29.0
+2021-02-01,sequences,Saskatchewan,352.0
+2021-03-01,sequences,Saskatchewan,979.0
+2021-04-01,sequences,Saskatchewan,2629.0
+2021-05-01,sequences,Saskatchewan,2560.0
+2021-06-01,sequences,Saskatchewan,1439.0
+2021-07-01,sequences,Saskatchewan,342.0
+2021-08-01,sequences,Saskatchewan,294.0
+2021-09-01,sequences,Saskatchewan,2291.0
+2021-10-01,sequences,Saskatchewan,2435.0
+2021-11-01,sequences,Saskatchewan,2228.0
+2021-12-01,sequences,Saskatchewan,1661.0
+2022-01-01,sequences,Saskatchewan,1076.0
+2022-02-01,sequences,Saskatchewan,3011.0
+2022-03-01,sequences,Saskatchewan,1419.0
+2020-10-01,GISAID,Alberta,0.0
+2020-11-01,GISAID,Alberta,0.0
+2020-12-01,GISAID,Alberta,0.0
+2021-01-01,GISAID,Alberta,1541.0
+2021-02-01,GISAID,Alberta,134.0
+2021-03-01,GISAID,Alberta,0.0
+2021-04-01,GISAID,Alberta,0.0
+2021-05-01,GISAID,Alberta,7755.0
+2021-06-01,GISAID,Alberta,2330.0
+2021-07-01,GISAID,Alberta,0.0
+2021-08-01,GISAID,Alberta,2822.0
+2021-09-01,GISAID,Alberta,4697.0
+2021-10-01,GISAID,Alberta,5285.0
+2021-11-01,GISAID,Alberta,1679.0
+2021-12-01,GISAID,Alberta,3247.0
+2022-01-01,GISAID,Alberta,2359.0
+2022-02-01,GISAID,Alberta,5801.0
+2022-03-01,GISAID,Alberta,2795.0
+2020-10-01,GISAID,British Columbia,0.0
+2020-11-01,GISAID,British Columbia,0.0
+2020-12-01,GISAID,British Columbia,0.0
+2021-01-01,GISAID,British Columbia,320.0
+2021-02-01,GISAID,British Columbia,4952.0
+2021-03-01,GISAID,British Columbia,0.0
+2021-04-01,GISAID,British Columbia,0.0
+2021-05-01,GISAID,British Columbia,0.0
+2021-06-01,GISAID,British Columbia,16875.0
+2021-07-01,GISAID,British Columbia,0.0
+2021-08-01,GISAID,British Columbia,-34.0
+2021-09-01,GISAID,British Columbia,16146.0
+2021-10-01,GISAID,British Columbia,14298.0
+2021-11-01,GISAID,British Columbia,15451.0
+2021-12-01,GISAID,British Columbia,11734.0
+2022-01-01,GISAID,British Columbia,6420.0
+2022-02-01,GISAID,British Columbia,16065.0
+2022-03-01,GISAID,British Columbia,10587.0
+2020-10-01,GISAID,Canada,1302.0
+2020-11-01,GISAID,Canada,80.0
+2020-12-01,GISAID,Canada,158.0
+2021-01-01,GISAID,Canada,3256.0
+2021-02-01,GISAID,Canada,8777.0
+2021-03-01,GISAID,Canada,9166.0
+2021-04-01,GISAID,Canada,4403.0
+2021-05-01,GISAID,Canada,14221.0
+2021-06-01,GISAID,Canada,30461.0
+2021-07-01,GISAID,Canada,1215.0
+2021-08-01,GISAID,Canada,9114.0
+2021-09-01,GISAID,Canada,33103.0
+2021-10-01,GISAID,Canada,28124.0
+2021-11-01,GISAID,Canada,28421.0
+2021-12-01,GISAID,Canada,24025.0
+2022-01-01,GISAID,Canada,28909.0
+2022-02-01,GISAID,Canada,35942.0
+2022-03-01,GISAID,Canada,21211.0
+2020-10-01,GISAID,Manitoba,255.0
+2020-11-01,GISAID,Manitoba,25.0
+2020-12-01,GISAID,Manitoba,0.0
+2021-01-01,GISAID,Manitoba,0.0
+2021-02-01,GISAID,Manitoba,275.0
+2021-03-01,GISAID,Manitoba,521.0
+2021-04-01,GISAID,Manitoba,253.0
+2021-05-01,GISAID,Manitoba,0.0
+2021-06-01,GISAID,Manitoba,346.0
+2021-07-01,GISAID,Manitoba,0.0
+2021-08-01,GISAID,Manitoba,0.0
+2021-09-01,GISAID,Manitoba,188.0
+2021-10-01,GISAID,Manitoba,1308.0
+2021-11-01,GISAID,Manitoba,507.0
+2021-12-01,GISAID,Manitoba,254.0
+2022-01-01,GISAID,Manitoba,8.0
+2022-02-01,GISAID,Manitoba,165.0
+2022-03-01,GISAID,Manitoba,225.0
+2020-10-01,GISAID,New Brunswick,0.0
+2020-11-01,GISAID,New Brunswick,0.0
+2020-12-01,GISAID,New Brunswick,0.0
+2021-01-01,GISAID,New Brunswick,0.0
+2021-02-01,GISAID,New Brunswick,118.0
+2021-03-01,GISAID,New Brunswick,61.0
+2021-04-01,GISAID,New Brunswick,152.0
+2021-05-01,GISAID,New Brunswick,0.0
+2021-06-01,GISAID,New Brunswick,94.0
+2021-07-01,GISAID,New Brunswick,0.0
+2021-08-01,GISAID,New Brunswick,0.0
+2021-09-01,GISAID,New Brunswick,26.0
+2021-10-01,GISAID,New Brunswick,421.0
+2021-11-01,GISAID,New Brunswick,526.0
+2021-12-01,GISAID,New Brunswick,391.0
+2022-01-01,GISAID,New Brunswick,701.0
+2022-02-01,GISAID,New Brunswick,1274.0
+2022-03-01,GISAID,New Brunswick,471.0
+2020-10-01,GISAID,Newfoundland and Labrador,0.0
+2020-11-01,GISAID,Newfoundland and Labrador,0.0
+2020-12-01,GISAID,Newfoundland and Labrador,0.0
+2021-01-01,GISAID,Newfoundland and Labrador,0.0
+2021-02-01,GISAID,Newfoundland and Labrador,84.0
+2021-03-01,GISAID,Newfoundland and Labrador,87.0
+2021-04-01,GISAID,Newfoundland and Labrador,82.0
+2021-05-01,GISAID,Newfoundland and Labrador,29.0
+2021-06-01,GISAID,Newfoundland and Labrador,52.0
+2021-07-01,GISAID,Newfoundland and Labrador,0.0
+2021-08-01,GISAID,Newfoundland and Labrador,0.0
+2021-09-01,GISAID,Newfoundland and Labrador,20.0
+2021-10-01,GISAID,Newfoundland and Labrador,66.0
+2021-11-01,GISAID,Newfoundland and Labrador,148.0
+2021-12-01,GISAID,Newfoundland and Labrador,40.0
+2022-01-01,GISAID,Newfoundland and Labrador,66.0
+2022-02-01,GISAID,Newfoundland and Labrador,123.0
+2022-03-01,GISAID,Newfoundland and Labrador,253.0
+2020-10-01,GISAID,Nova Scotia,244.0
+2020-11-01,GISAID,Nova Scotia,0.0
+2020-12-01,GISAID,Nova Scotia,0.0
+2021-01-01,GISAID,Nova Scotia,0.0
+2021-02-01,GISAID,Nova Scotia,520.0
+2021-03-01,GISAID,Nova Scotia,95.0
+2021-04-01,GISAID,Nova Scotia,219.0
+2021-05-01,GISAID,Nova Scotia,95.0
+2021-06-01,GISAID,Nova Scotia,0.0
+2021-07-01,GISAID,Nova Scotia,42.0
+2021-08-01,GISAID,Nova Scotia,0.0
+2021-09-01,GISAID,Nova Scotia,66.0
+2021-10-01,GISAID,Nova Scotia,149.0
+2021-11-01,GISAID,Nova Scotia,96.0
+2021-12-01,GISAID,Nova Scotia,277.0
+2022-01-01,GISAID,Nova Scotia,72.0
+2022-02-01,GISAID,Nova Scotia,453.0
+2022-03-01,GISAID,Nova Scotia,167.0
+2020-10-01,GISAID,Ontario,803.0
+2020-11-01,GISAID,Ontario,55.0
+2020-12-01,GISAID,Ontario,158.0
+2021-01-01,GISAID,Ontario,744.0
+2021-02-01,GISAID,Ontario,1653.0
+2021-03-01,GISAID,Ontario,6616.0
+2021-04-01,GISAID,Ontario,2183.0
+2021-05-01,GISAID,Ontario,5821.0
+2021-06-01,GISAID,Ontario,6001.0
+2021-07-01,GISAID,Ontario,1173.0
+2021-08-01,GISAID,Ontario,503.0
+2021-09-01,GISAID,Ontario,5549.0
+2021-10-01,GISAID,Ontario,4321.0
+2021-11-01,GISAID,Ontario,2532.0
+2021-12-01,GISAID,Ontario,3661.0
+2022-01-01,GISAID,Ontario,6972.0
+2022-02-01,GISAID,Ontario,8051.0
+2022-03-01,GISAID,Ontario,4176.0
+2020-10-01,GISAID,Prince Edward Island,0.0
+2020-11-01,GISAID,Prince Edward Island,0.0
+2020-12-01,GISAID,Prince Edward Island,0.0
+2021-01-01,GISAID,Prince Edward Island,0.0
+2021-02-01,GISAID,Prince Edward Island,0.0
+2021-03-01,GISAID,Prince Edward Island,0.0
+2021-04-01,GISAID,Prince Edward Island,0.0
+2021-05-01,GISAID,Prince Edward Island,0.0
+2021-06-01,GISAID,Prince Edward Island,0.0
+2021-07-01,GISAID,Prince Edward Island,0.0
+2021-08-01,GISAID,Prince Edward Island,0.0
+2021-09-01,GISAID,Prince Edward Island,0.0
+2021-10-01,GISAID,Prince Edward Island,0.0
+2021-11-01,GISAID,Prince Edward Island,0.0
+2021-12-01,GISAID,Prince Edward Island,0.0
+2022-01-01,GISAID,Prince Edward Island,0.0
+2022-02-01,GISAID,Prince Edward Island,0.0
+2022-03-01,GISAID,Prince Edward Island,0.0
+2020-10-01,GISAID,Quebec,0.0
+2020-11-01,GISAID,Quebec,0.0
+2020-12-01,GISAID,Quebec,0.0
+2021-01-01,GISAID,Quebec,651.0
+2021-02-01,GISAID,Quebec,1041.0
+2021-03-01,GISAID,Quebec,1786.0
+2021-04-01,GISAID,Quebec,1514.0
+2021-05-01,GISAID,Quebec,521.0
+2021-06-01,GISAID,Quebec,1357.0
+2021-07-01,GISAID,Quebec,0.0
+2021-08-01,GISAID,Quebec,4538.0
+2021-09-01,GISAID,Quebec,5102.0
+2021-10-01,GISAID,Quebec,813.0
+2021-11-01,GISAID,Quebec,3104.0
+2021-12-01,GISAID,Quebec,1561.0
+2022-01-01,GISAID,Quebec,10927.0
+2022-02-01,GISAID,Quebec,1262.0
+2022-03-01,GISAID,Quebec,1097.0
+2020-10-01,GISAID,Saskatchewan,0.0
+2020-11-01,GISAID,Saskatchewan,0.0
+2020-12-01,GISAID,Saskatchewan,0.0
+2021-01-01,GISAID,Saskatchewan,0.0
+2021-02-01,GISAID,Saskatchewan,0.0
+2021-03-01,GISAID,Saskatchewan,0.0
+2021-04-01,GISAID,Saskatchewan,0.0
+2021-05-01,GISAID,Saskatchewan,0.0
+2021-06-01,GISAID,Saskatchewan,3406.0
+2021-07-01,GISAID,Saskatchewan,0.0
+2021-08-01,GISAID,Saskatchewan,1285.0
+2021-09-01,GISAID,Saskatchewan,1309.0
+2021-10-01,GISAID,Saskatchewan,1463.0
+2021-11-01,GISAID,Saskatchewan,4378.0
+2021-12-01,GISAID,Saskatchewan,2860.0
+2022-01-01,GISAID,Saskatchewan,1384.0
+2022-02-01,GISAID,Saskatchewan,2748.0
+2022-03-01,GISAID,Saskatchewan,1440.0
+2020-10-01,Portal,Alberta,0.0
+2020-11-01,Portal,Alberta,0.0
+2020-12-01,Portal,Alberta,0.0
+2021-01-01,Portal,Alberta,0.0
+2021-02-01,Portal,Alberta,0.0
+2021-03-01,Portal,Alberta,0.0
+2021-04-01,Portal,Alberta,0.0
+2021-05-01,Portal,Alberta,0.0
+2021-06-01,Portal,Alberta,0.0
+2021-07-01,Portal,Alberta,0.0
+2021-08-01,Portal,Alberta,9956.0
+2021-09-01,Portal,Alberta,0.0
+2021-10-01,Portal,Alberta,9781.0
+2021-11-01,Portal,Alberta,8003.0
+2021-12-01,Portal,Alberta,3061.0
+2022-01-01,Portal,Alberta,2104.0
+2022-02-01,Portal,Alberta,2217.0
+2022-03-01,Portal,Alberta,5239.0
+2020-10-01,Portal,British Columbia,0.0
+2020-11-01,Portal,British Columbia,0.0
+2020-12-01,Portal,British Columbia,0.0
+2021-01-01,Portal,British Columbia,0.0
+2021-02-01,Portal,British Columbia,0.0
+2021-03-01,Portal,British Columbia,0.0
+2021-04-01,Portal,British Columbia,0.0
+2021-05-01,Portal,British Columbia,0.0
+2021-06-01,Portal,British Columbia,0.0
+2021-07-01,Portal,British Columbia,0.0
+2021-08-01,Portal,British Columbia,0.0
+2021-09-01,Portal,British Columbia,22576.0
+2021-10-01,Portal,British Columbia,12118.0
+2021-11-01,Portal,British Columbia,3.0
+2021-12-01,Portal,British Columbia,22833.0
+2022-01-01,Portal,British Columbia,0.0
+2022-02-01,Portal,British Columbia,1.0
+2022-03-01,Portal,British Columbia,44159.0
+2020-10-01,Portal,Canada,0.0
+2020-11-01,Portal,Canada,0.0
+2020-12-01,Portal,Canada,0.0
+2021-01-01,Portal,Canada,0.0
+2021-02-01,Portal,Canada,0.0
+2021-03-01,Portal,Canada,0.0
+2021-04-01,Portal,Canada,0.0
+2021-05-01,Portal,Canada,0.0
+2021-06-01,Portal,Canada,0.0
+2021-07-01,Portal,Canada,6127.0
+2021-08-01,Portal,Canada,21630.0
+2021-09-01,Portal,Canada,22576.0
+2021-10-01,Portal,Canada,27990.0
+2021-11-01,Portal,Canada,22165.0
+2021-12-01,Portal,Canada,30766.0
+2022-01-01,Portal,Canada,22606.0
+2022-02-01,Portal,Canada,30372.0
+2022-03-01,Portal,Canada,67503.0
+2020-10-01,Portal,Manitoba,0.0
+2020-11-01,Portal,Manitoba,0.0
+2020-12-01,Portal,Manitoba,0.0
+2021-01-01,Portal,Manitoba,0.0
+2021-02-01,Portal,Manitoba,0.0
+2021-03-01,Portal,Manitoba,0.0
+2021-04-01,Portal,Manitoba,0.0
+2021-05-01,Portal,Manitoba,0.0
+2021-06-01,Portal,Manitoba,0.0
+2021-07-01,Portal,Manitoba,0.0
+2021-08-01,Portal,Manitoba,0.0
+2021-09-01,Portal,Manitoba,0.0
+2021-10-01,Portal,Manitoba,1021.0
+2021-11-01,Portal,Manitoba,0.0
+2021-12-01,Portal,Manitoba,0.0
+2022-01-01,Portal,Manitoba,0.0
+2022-02-01,Portal,Manitoba,1517.0
+2022-03-01,Portal,Manitoba,0.0
+2020-10-01,Portal,New Brunswick,0.0
+2020-11-01,Portal,New Brunswick,0.0
+2020-12-01,Portal,New Brunswick,0.0
+2021-01-01,Portal,New Brunswick,0.0
+2021-02-01,Portal,New Brunswick,0.0
+2021-03-01,Portal,New Brunswick,0.0
+2021-04-01,Portal,New Brunswick,0.0
+2021-05-01,Portal,New Brunswick,0.0
+2021-06-01,Portal,New Brunswick,0.0
+2021-07-01,Portal,New Brunswick,0.0
+2021-08-01,Portal,New Brunswick,0.0
+2021-09-01,Portal,New Brunswick,0.0
+2021-10-01,Portal,New Brunswick,0.0
+2021-11-01,Portal,New Brunswick,507.0
+2021-12-01,Portal,New Brunswick,0.0
+2022-01-01,Portal,New Brunswick,0.0
+2022-02-01,Portal,New Brunswick,2565.0
+2022-03-01,Portal,New Brunswick,618.0
+2020-10-01,Portal,Newfoundland and Labrador,0.0
+2020-11-01,Portal,Newfoundland and Labrador,0.0
+2020-12-01,Portal,Newfoundland and Labrador,0.0
+2021-01-01,Portal,Newfoundland and Labrador,0.0
+2021-02-01,Portal,Newfoundland and Labrador,0.0
+2021-03-01,Portal,Newfoundland and Labrador,0.0
+2021-04-01,Portal,Newfoundland and Labrador,0.0
+2021-05-01,Portal,Newfoundland and Labrador,0.0
+2021-06-01,Portal,Newfoundland and Labrador,0.0
+2021-07-01,Portal,Newfoundland and Labrador,0.0
+2021-08-01,Portal,Newfoundland and Labrador,0.0
+2021-09-01,Portal,Newfoundland and Labrador,0.0
+2021-10-01,Portal,Newfoundland and Labrador,0.0
+2021-11-01,Portal,Newfoundland and Labrador,296.0
+2021-12-01,Portal,Newfoundland and Labrador,0.0
+2022-01-01,Portal,Newfoundland and Labrador,0.0
+2022-02-01,Portal,Newfoundland and Labrador,478.0
+2022-03-01,Portal,Newfoundland and Labrador,159.0
+2020-10-01,Portal,Nova Scotia,0.0
+2020-11-01,Portal,Nova Scotia,0.0
+2020-12-01,Portal,Nova Scotia,0.0
+2021-01-01,Portal,Nova Scotia,0.0
+2021-02-01,Portal,Nova Scotia,0.0
+2021-03-01,Portal,Nova Scotia,0.0
+2021-04-01,Portal,Nova Scotia,0.0
+2021-05-01,Portal,Nova Scotia,0.0
+2021-06-01,Portal,Nova Scotia,0.0
+2021-07-01,Portal,Nova Scotia,0.0
+2021-08-01,Portal,Nova Scotia,0.0
+2021-09-01,Portal,Nova Scotia,0.0
+2021-10-01,Portal,Nova Scotia,0.0
+2021-11-01,Portal,Nova Scotia,1202.0
+2021-12-01,Portal,Nova Scotia,0.0
+2022-01-01,Portal,Nova Scotia,0.0
+2022-02-01,Portal,Nova Scotia,549.0
+2022-03-01,Portal,Nova Scotia,750.0
+2020-10-01,Portal,Ontario,0.0
+2020-11-01,Portal,Ontario,0.0
+2020-12-01,Portal,Ontario,0.0
+2021-01-01,Portal,Ontario,0.0
+2021-02-01,Portal,Ontario,0.0
+2021-03-01,Portal,Ontario,0.0
+2021-04-01,Portal,Ontario,0.0
+2021-05-01,Portal,Ontario,0.0
+2021-06-01,Portal,Ontario,0.0
+2021-07-01,Portal,Ontario,111.0
+2021-08-01,Portal,Ontario,11674.0
+2021-09-01,Portal,Ontario,0.0
+2021-10-01,Portal,Ontario,5746.0
+2021-11-01,Portal,Ontario,12154.0
+2021-12-01,Portal,Ontario,3.0
+2022-01-01,Portal,Ontario,0.0
+2022-02-01,Portal,Ontario,13784.0
+2022-03-01,Portal,Ontario,5552.0
+2020-10-01,Portal,Prince Edward Island,0.0
+2020-11-01,Portal,Prince Edward Island,0.0
+2020-12-01,Portal,Prince Edward Island,0.0
+2021-01-01,Portal,Prince Edward Island,0.0
+2021-02-01,Portal,Prince Edward Island,0.0
+2021-03-01,Portal,Prince Edward Island,0.0
+2021-04-01,Portal,Prince Edward Island,0.0
+2021-05-01,Portal,Prince Edward Island,0.0
+2021-06-01,Portal,Prince Edward Island,0.0
+2021-07-01,Portal,Prince Edward Island,0.0
+2021-08-01,Portal,Prince Edward Island,0.0
+2021-09-01,Portal,Prince Edward Island,0.0
+2021-10-01,Portal,Prince Edward Island,0.0
+2021-11-01,Portal,Prince Edward Island,0.0
+2021-12-01,Portal,Prince Edward Island,0.0
+2022-01-01,Portal,Prince Edward Island,0.0
+2022-02-01,Portal,Prince Edward Island,0.0
+2022-03-01,Portal,Prince Edward Island,0.0
+2020-10-01,Portal,Quebec,0.0
+2020-11-01,Portal,Quebec,0.0
+2020-12-01,Portal,Quebec,0.0
+2021-01-01,Portal,Quebec,0.0
+2021-02-01,Portal,Quebec,0.0
+2021-03-01,Portal,Quebec,0.0
+2021-04-01,Portal,Quebec,0.0
+2021-05-01,Portal,Quebec,0.0
+2021-06-01,Portal,Quebec,0.0
+2021-07-01,Portal,Quebec,6016.0
+2021-08-01,Portal,Quebec,0.0
+2021-09-01,Portal,Quebec,0.0
+2021-10-01,Portal,Quebec,-6016.0
+2021-11-01,Portal,Quebec,0.0
+2021-12-01,Portal,Quebec,0.0
+2022-01-01,Portal,Quebec,20502.0
+2022-02-01,Portal,Quebec,9261.0
+2022-03-01,Portal,Quebec,3924.0
+2020-10-01,Portal,Saskatchewan,0.0
+2020-11-01,Portal,Saskatchewan,0.0
+2020-12-01,Portal,Saskatchewan,0.0
+2021-01-01,Portal,Saskatchewan,0.0
+2021-02-01,Portal,Saskatchewan,0.0
+2021-03-01,Portal,Saskatchewan,0.0
+2021-04-01,Portal,Saskatchewan,0.0
+2021-05-01,Portal,Saskatchewan,0.0
+2021-06-01,Portal,Saskatchewan,0.0
+2021-07-01,Portal,Saskatchewan,0.0
+2021-08-01,Portal,Saskatchewan,0.0
+2021-09-01,Portal,Saskatchewan,0.0
+2021-10-01,Portal,Saskatchewan,5340.0
+2021-11-01,Portal,Saskatchewan,0.0
+2021-12-01,Portal,Saskatchewan,4869.0
+2022-01-01,Portal,Saskatchewan,0.0
+2022-02-01,Portal,Saskatchewan,0.0
+2022-03-01,Portal,Saskatchewan,7102.0
