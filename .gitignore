@@ -113,6 +113,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# extra large data file
+# extra large data files
 data/metadata_CANall_2022_03_08.csv
+data/data_portal_metadata_all_apr_4_2022.csv
 
